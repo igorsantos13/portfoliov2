@@ -1,0 +1,23 @@
+.footer{
+    background-color: var(--main-font-color);
+
+    color: --background-color-white;
+
+    padding: 2rem 0;
+    margin-bottom: 1.5rem;
+    width: 70vw;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    list-style-type: none;
+    /* font-size: 2rem; */
+
+}
+
+.footer-icons{
+    font-size: 2rem;
+}

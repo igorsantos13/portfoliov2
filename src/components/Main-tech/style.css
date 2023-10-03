@@ -1,0 +1,22 @@
+.tech-icon{
+    margin-top: 2rem;
+}
+
+.tech-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 32px;
+
+    list-style-type: none;
+
+    min-width: 70vw;
+
+}
+
+.tech-li{
+    
+    list-style-type: none;
+}

@@ -5,6 +5,15 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+
+  list-style-type: none;
+
+  /* my changes */
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background-color-white);
 }
 
 .description {

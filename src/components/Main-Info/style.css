@@ -1,0 +1,25 @@
+.main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-font-color);
+    max-width: 70vw;
+    height: 50vh;
+}
+
+.main-name{
+    color: var(--detail-font-color);
+    margin-bottom: 1rem;
+}
+
+.main-span{
+    color: var(--main-font-color);
+}
+
+.icon{
+    color: var(--detail-font-color);
+    font-size: 24px;
+    /* position: relative;
+    top: .5rem; */
+}
