@@ -1,13 +1,14 @@
 import React from 'react'
 import './style.css'
+import Link from 'next/link'
 
 function Navbar() {
   return (
     <nav>
         <ul className='nav-ul'>
-            <a href="#"><li>Me</li></a>
-            <a href="#"><li>Experience</li></a>
-            <a href="#"><li>Let's Talk!</li></a>
+            <Link href="/"><li>/Me</li></Link>
+            <Link href="/experience"><li>/Experience</li></Link>
+            <Link href="/form"><li>/Let's Talk!</li></Link>
         </ul>
     </nav>
   )

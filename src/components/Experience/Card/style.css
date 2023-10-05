@@ -1,0 +1,30 @@
+.card-container{
+    max-width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-main{
+    border-top: 6px solid var(--detail-font-color);
+    border-right: 6px solid var(--background-color-white);
+    border-bottom: 6px solid var(--detail-font-color);
+    border-left: 6px solid var(--detail-font-color);
+    border-radius: 30px;
+    padding: 2rem;
+}
+
+.card-title{
+    text-decoration: underline;
+    color: var(--detail-font-color);
+    font-size: 2rem;
+    margin-bottom: .7rem;
+
+    font-weight: 800;
+}
+
+.card-span{
+    color: var(--main-font-color);
+    font-weight: 600;
+}
