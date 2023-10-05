@@ -1,3 +1,10 @@
+:root {
+    --background-color-white: #fff8f0;
+    --main-font-color: #1e1e24;
+    --detail-font-color: #92140c;
+    list-style-type: none;
+  }
+
 .form-container{
     display: flex;
     justify-content: center;
@@ -12,7 +19,6 @@
     /* align-items: center; */
     min-height: 70vh;
     min-width: 70vw;
-
     
 }
 

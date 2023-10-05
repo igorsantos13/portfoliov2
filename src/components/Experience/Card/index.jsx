@@ -1,12 +1,12 @@
 import React from 'react'
 import './style.css'
 
-function Card() {
+function Card(props) {
   return (
     <div className=''>
         <div className='card-main'>
-            <h2 className='card-title'>Project Name</h2>
-            <span className='card-span'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur corporis tempora modi eius voluptatibus reprehenderit voluptatum maiores repellendus dolor? Placeat sed ut doloribus voluptas. Assumenda asperiores aliquam fugit corporis eaque.</span>
+            <h2 className='card-title'>{props.name}</h2>
+            <span className='card-span'>{props.description}</span>
         </div>
     </div>
   )

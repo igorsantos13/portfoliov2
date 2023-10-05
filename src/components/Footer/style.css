@@ -1,3 +1,12 @@
+.footer-div{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 20vw;
+}
+
 .footer{
     background-color: var(--main-font-color);
 
@@ -25,7 +34,7 @@
     font-size: 2rem;
 }
 
-.footer-div{
+.footer-div-icon{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

@@ -1,8 +1,29 @@
 .card-container{
     max-width: 70vw;
     height: 70vh;
+    padding: 2rem;
+    /* revisar as linhas acima?? */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 6rem; */
+    /* min-height: 100vh; */
+  
+    list-style-type: none;
+  
+    /* my changes */
+    /* min-width: 100vw; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color-white);
+  }
+  
