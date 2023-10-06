@@ -7,7 +7,7 @@ import { BsCodeSlash, BsCodeSquare } from 'react-icons/bs'
 function Main() {
   return (
     <div className='main-info'>
-        <h1 className='main-name'><span className='main-span'>Hello, I'm</span> <a href="https://github.com/igorsantos13" target='_blank'>Igor</a>
+        <h1 className='main-name'><span className='main-span'>Hello, I'm</span> <a href="https://github.com/igorsantos13" target='_blank'>Igor Santos</a>
         <span className='main-span'>. <br /> My goal is help people achieve their goals through <BsCodeSquare className='icon'/></span>
         </h1>
         

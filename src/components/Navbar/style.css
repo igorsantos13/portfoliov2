@@ -17,6 +17,7 @@ nav{
     font-weight: 700;
 }
 
-.nav-ul a:first-child{
+.link-style{
     color: var(--detail-font-color);
+    text-decoration: underline 1.5px;
 }
