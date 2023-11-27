@@ -2,6 +2,8 @@
     max-width: 70vw;
     height: 70vh;
     padding: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     /* revisar as linhas acima?? */
     display: flex;
     flex-direction: column;

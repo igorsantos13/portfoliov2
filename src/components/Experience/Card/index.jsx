@@ -10,6 +10,10 @@ function Card(props) {
           </a>
           
             <span className='card-span'>{props.description}</span>
+            <br />
+            <a href={props.codeLink} target='_blank'>
+              <span className='card-cLink'>Check code!</span>
+            </a>
         </div>
     </div>
   )

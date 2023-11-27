@@ -21,3 +21,8 @@
     color: var(--main-font-color);
     font-weight: 600;
 }
+
+.card-cLink{
+    color: var(--detail-font-color);
+    font-weight: 400;
+}
