@@ -28,3 +28,13 @@
     background-color: var(--background-color-white);
   }
   
+  @media (max-width: 600px) {
+    .main{
+        height: 130vh;
+        border: 1px solid blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+  }
